@@ -68,6 +68,17 @@ public class Main {
                     JOptionPane.showMessageDialog(null,"La resta es:"+r);
 
                     break;
+                     case 3:
+
+                    n1=Double.parseDouble(JOptionPane.showInputDialog("Ingrese numero 1"));
+
+                    n2=Double.parseDouble(JOptionPane.showInputDialog("Ingrese numero 2"));
+
+                    m=n1*n2;
+
+                    JOptionPane.showMessageDialog(null,"La multiplicacion es:"+m);
+
+                    break;
 
 	}
 
