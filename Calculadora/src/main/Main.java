@@ -57,7 +57,17 @@ public class Main {
 
                     break;	
 		
-		
+		  case 2:
+
+                    n1=Double.parseDouble(JOptionPane.showInputDialog("Ingrese numero 1"));
+
+                    n2=Double.parseDouble(JOptionPane.showInputDialog("Ingrese numero 2"));
+
+                    r=n1-n2;
+
+                    JOptionPane.showMessageDialog(null,"La resta es:"+r);
+
+                    break;
 
 	}
 
