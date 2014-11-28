@@ -42,6 +42,12 @@ public class Main {
                     JOptionPane.showMessageDialog(null,"La suma es:"+r);
                     break;
 
+                case 3:
+                    n1=Double.parseDouble(JOptionPane.showInputDialog("digite  numero 1"));
+                    n2=Double.parseDouble(JOptionPane.showInputDialog("digite  numero 2"));
+                    m=n1*n2;
+                    JOptionPane.showMessageDialog(null,"division:"+m);
+                    break;
 
  
 
