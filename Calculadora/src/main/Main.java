@@ -20,11 +20,6 @@ public class Main {
             "[2] SUMAR\n"+
             "[4] DIVIDIR\n"+
             "[3] MULTIPLICAR\n"+
-            "[5] RADICACION\n"+
-            "[6] POTENCIA\n"+
-            "[7] LOGARITMO\n"+
-            "[8] FACTORIAL\n"+
-            "[9] SALIR\n"+
             "Ingresa una opcion:\n\n"));
 
             switch(op)
@@ -35,7 +30,7 @@ public class Main {
                     s=n1+n2;
                     JOptionPane.showMessageDialog(null,"resta:"+s);
                     break;
-	case 2:
+        	case 2:
                     n1=Double.parseDouble(JOptionPane.showInputDialog("digite numero 1"));
                     n2=Double.parseDouble(JOptionPane.showInputDialog("digite numero 2"));
                     r=n1-n2;
@@ -47,6 +42,12 @@ public class Main {
                     n2=Double.parseDouble(JOptionPane.showInputDialog("digite  numero 2"));
                     m=n1*n2;
                     JOptionPane.showMessageDialog(null,"division:"+m);
+                    break;
+                case 4:
+                    n1=Double.parseDouble(JOptionPane.showInputDialog("digite numero 1"));
+                    n2=Double.parseDouble(JOptionPane.showInputDialog("digite numero 2"));
+                    d=n1/n2;
+                    JOptionPane.showMessageDialog(null,"multiplicacion:"+d);
                     break;
 
  
